@@ -4,11 +4,11 @@
 # https://www.mikedane.com/static-site-generators/hugo/
 # # #
 
-#baseURL         = "http://dev.localhost/Nextcloud/NextPublic/HUGO/HugoPortfolio/public/"
+baseURL         = "http://dev.localhost/Nextcloud/NextPublic/HUGO/HugoPortfolio/public/"
 #baseURL         = "/"
 languageCode    = "fr-FR"
 
-baseURL         = ""
+#baseURL         = ""
 footnoteReturnLinkContents = "↩"
 title           = "Portfolio"
 

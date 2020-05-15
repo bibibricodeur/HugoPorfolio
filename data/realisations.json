@@ -1,21 +1,21 @@
 [
     {
         "capture": "portfolio/thierry.png",
-        "description": "Site personnel réalisé à partir du générateur de site Hugo ainsi que du framework css Bootstrap. Les templates ont été intégralement réalisés à partir de la documentation. Le style est délibérement simple car auto-hébergé à mon domicile sur un Nano-ordinateur de type Raspberry Pi.",
+        "description": "Site personnel réalisé à partir du générateur de site Hugo ainsi que du framework css Bootstrap. Le theme a été intégralement réalisé à partir de la documentation. Le style est délibérement simple car auto-hébergé à mon domicile sur un Nano-ordinateur de type Raspberry Pi.",
         "name": "Thierry",
         "url": "https://thiweb.fr",
         "bouton": "Aller sur le site"
     },
     {
         "capture": "portfolio/souris.png",
-        "description": "Application d'exercices de maniabilité d'une souris. Projet réalisé à l'aide du framework css BootsTrap, de jQuery et d'un plugin jQuery contextMenu.",
+        "description": "Application d'exercices de maniabilité d'une souris. Projet réalisé à l'aide du framework css Bootstrap, de jQuery et d'un plugin jQuery contextMenu.",
         "name": "Exercices souris",
         "url": "https://exercices-souris.netlify.app/",
         "bouton": "Aller sur l'application"
     },
     {
         "capture": "portfolio/template.png",
-        "description": "Template en pure html, css, et javascript pour ne pas oublier les bases en développement.",
+        "description": "Template en pure html, css, et javascript pour garder une trace des bases en développement.",
         "name": "Template",
         "url": "https://github.com/bibibricodeur",
         "bouton": "Aller sur le dépôt"
