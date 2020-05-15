@@ -1,0 +1,39 @@
+<!-- Footer -->
+<footer class="py-5" id="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-8 text-center">
+                <p class="m-0 text-center text-white">Propulsé par <a href="https://gohugo.io/">HUGO</a> et         
+<a href="{{ .Site.Params.hebergement }}">
+                        {{ with .Site.Params.hebergeur }}{{.}}
+                        {{ end }}
+                    </a> , carrossé par <a href="https://getbootstrap.com/">Bootstrap</a> et 
+<a href="{{ .Site.BaseURL }}">
+                        {{ with .Site.Params.GitHubUser }}{{.}}
+                        {{ end }}
+                    </a> &copy; {{ now.Year }}
+                </p>
+                <p class="m-0 text-center text-white">"A ce Jonathan le Goéland qui sommeille en chacun de nous." <a
+href="https://fr.wikipedia.org/wiki/Richard_Bach" alt="Page Wikipedia">Richard BACH</a>
+                </p>
+                <p class="m-0 text-center text-white" id="jetaivu"></p>
+            </div>
+            <!-- /md-8 -->
+
+            <div class="col-md-4 text-center">
+                <ul class="list-unstyled mb-0">
+                    {{ range .Site.Data.liens_portfolio }}
+                        <li>
+                            <a href="{{ .url }}">{{ .name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+            <!-- /md-4 -->
+
+        </div>
+        <!--/ row -->
+    </div>
+    <!-- /.container -->
+</footer>

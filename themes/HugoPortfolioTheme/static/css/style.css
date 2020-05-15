@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.navbar {
+  background-color: #176677;
+  border-bottom: 12px solid #776617;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.svg {
+  max-width: 30%;
+}
+#piaf {
+  margin-top: 0 !important;
+}
+.tag {
+  font-style: italic;
+}
+
+footer {
+  background-color: #176677;
+  border-top: 12px solid #776617;
+}
+footer a {
+  color: #ccc;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #1d89ff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+blockquote {
+  font-style: italic;
+  margin-left: 32px;
+  font-family: ;
+  font-size: 18px;
+  border-left: 3px solid #777;
+  padding-left: 9px;
+}
+
+#boutonRemonter {
+  display: none;
+  position: fixed;
+  bottom: 90px;
+  right: 10px;
+  z-index: 99;
+}
+#boutonRemonter:hover {
+  transition-duration: 0.7s;
+  opacity: 0.3;
+}
+
+section {
+  min-height: 240px;
+  /*background-color: #eee;*/
+  padding-bottom: 1em;
+}
+
+.parrallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax001 {
+  /* The image used */
+  background-image: url("../img/1500px_background001.jpg");
+
+  /* Full height */
+  height: 90px;
+  opacity: 0.6;
+}
+
+.parallax002 {
+  /* The image used */
+  background-image: url("../img/1500px_background002.jpg");
+
+  /* Full height */
+  height: 90px;
+  opacity: 0.6;
+}
+
+.parallax003 {
+  /* The image used */
+  background-image: url("../img/1500px_background003.jpg");
+
+  /* Full height */
+  height: 90px;
+  opacity: 0.6;
+}
+
+.parallax004 {
+  /* The image used */
+  background-image: url("../img/1500px_background004.jpg");
+
+  /* Full height */
+  height: 90px;
+  opacity: 0.9;
+}
+
+.gris {
+  color: #ddd;
+}

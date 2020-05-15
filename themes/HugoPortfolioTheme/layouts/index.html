@@ -1,0 +1,32 @@
+{{ define "main" }}
+    <main aria-role="main">
+
+        {{ partial "jumbotron" . }}
+
+        <section class="mt-3">
+            <div class="container text-center">
+            <h2><strong>A propos</strong></h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-justify">
+                        Bien que principalement orienté dans le domaine de la technique et de la maintenance, j’ai néanmoins parallèlement toujours souhaité m’exprimer dans la création.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-justify">Entretenant depuis longtemps une passion pour le web, son actualité ainsi que les nouvelles technologies, j'ai décidé de me ré-orienter dans le développement Web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="parrallax parallax001"></div>
+
+        {{ partial "certificats" . }}
+
+        <div class="parrallax parallax004"></div>
+
+        {{ partial "realisations" . }}
+
+        <div class="parrallax parallax003"></div>
+
+    </main>
+{{ end }}

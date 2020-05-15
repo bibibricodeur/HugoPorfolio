@@ -1,0 +1,30 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div class="container">
+
+            <!-- Blog Post -->
+            <article class="card mb-4">
+                <div class="card-body">
+                    <h1 class="card-title">{{ .Title }}</h1>
+                    <p class="card-text"></p>{{ .Content }}</p>
+            </div>
+            <!-- /card-body -->
+            <div class="card-footer text-muted">
+            Posté le: <time>{{ .Date.Format "02.01.2006 15:04" }}</time>
+                {{ if .Params.tags }}
+                    <p>
+                        <strong>Etiquette(s):</strong>
+                        {{ range .Params.tags }}
+                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>,
+                        {{ end }}
+                    </p>
+                {{ end }}
+            </div>
+            <!-- /card-footer text-muted -->
+        </article>
+        <!-- /Blog Post -->
+
+    </div>
+    <!-- /container -->
+</main>
+{{ end }}
