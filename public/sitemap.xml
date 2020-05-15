@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://dev.localhost/Nextcloud/NextPublic/HUGO/HugoPortfolio/public/mentions/</loc>
+    <loc>/mentions/</loc>
     <lastmod>1970-01-01T12:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dev.localhost/Nextcloud/NextPublic/HUGO/HugoPortfolio/public/</loc>
+    <loc>/</loc>
     <lastmod>1970-01-01T12:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dev.localhost/Nextcloud/NextPublic/HUGO/HugoPortfolio/public/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://dev.localhost/Nextcloud/NextPublic/HUGO/HugoPortfolio/public/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
