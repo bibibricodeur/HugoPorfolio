@@ -5,10 +5,9 @@
 # # #
 
 #baseURL         = "http://dev.localhost/Nextcloud/NextPublic/HUGO/HugoPortfolio/public/"
-#baseURL         = "/"
 languageCode    = "fr-FR"
 
-baseURL         = ""
+baseURL         = "https://thierry-charriot.netlify.app/"
 footnoteReturnLinkContents = "↩"
 title           = "Portfolio"
 
