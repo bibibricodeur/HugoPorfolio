@@ -7,8 +7,8 @@
     {{ range .Paginator.Pages.ByDate.Reverse }}
     <article class="card mb-4">
         <div class="card-body">
-            <h1 class="card-title"><a href='{{ .RelPermalink }}'> {{ .Title }}</a></h1>
-            <p class="card-text text-justify">{{ .Summary }}</p>
+            <h2 class="card-title"><a href='{{ .RelPermalink }}'> {{ .Title }}</a></h2>
+            <div class="card-text text-justify">{{ .Summary }}</div>
             {{ if .Truncated }}
             <div>
                 <a href="{{ .RelPermalink }}" class="btn btn-info">En savoir plus &rarr;</a>
