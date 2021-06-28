@@ -7,7 +7,7 @@
 #baseURL         = "http://dev.localhost/Nextcloud/NextPublic/HUGO/HugoPortfolio/public/"
 languageCode    = "fr-FR"
 
-baseURL         = "https://thierry-charriot.netlify.app/"
+baseURL         = "https://thierrycharriot.netlify.app/"
 footnoteReturnLinkContents = "↩"
 title           = "Portfolio"
 
